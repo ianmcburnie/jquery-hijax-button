@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Demo: jquery-hijax-button</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <style>
+            .hijax-button--js {
+                background: #eee;
+                border: 1px solid #ccc;
+                border-radius: 3px;
+                color: inherit;
+                font-size: small;
+                padding: 1px 5px;
+                text-decoration: none;
+            }
+        </style>
+    </head>
+    <body>
+        <div role="main">
+            <h1>Demo: jquery-hijax-button</h1>
+            <p>Press SPACEBAR on Hijax Button to trigger a 'click' event. View developer console for debug output.</p>
+            <div>
+                <a class="hijax-button" href="http://my.ebay.com/">Hijax Button</a>
+                <button>Real Button</button>
+                <span class="hijax-button" tabindex="0">Invalid Button</span>
+            </div>
+        </div>
+        <script src="browser.js"></script>
+        <script>
+            $(function() {
+                $('.hijax-button').hijaxButton().on('click', function(e) {
+                    console.log(e, this);
+                });
+                $('button').on('click', function(e) {
+                    console.log(e, this);
+                });
+            });
+        </script>
+    </body>
+</html>
