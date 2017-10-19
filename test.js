@@ -1,5 +1,7 @@
-describe("jquery.hijaxbutton.js", function() {
+/* eslint no-undef: 0 */
+/* eslint no-unused-vars: 0 */
 
+describe("jquery.hijaxbutton.js", function() {
     jasmine.DEFAULT_TIMEOUT_INTERVAL = 500;
 
     var dummyEventTimeoutInterval = jasmine.DEFAULT_TIMEOUT_INTERVAL / 2;
@@ -9,8 +11,8 @@ describe("jquery.hijaxbutton.js", function() {
     var $widget;
 
     var dummyEventHandlers = {
-        onButtonFocus : function(e) {},
-        onFlyoutCollapse : function(e) {}
+        onButtonFocus: function() {},
+        onFlyoutCollapse: function() {}
     };
 
     beforeEach(function() {
@@ -20,5 +22,4 @@ describe("jquery.hijaxbutton.js", function() {
     it("plugin should not be undefined", function() {
         expect($.fn.hijaxButton).not.toBe(undefined);
     });
-
 });

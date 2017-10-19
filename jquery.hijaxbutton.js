@@ -1,9 +1,9 @@
 /**
 * @file jQuery collection plugin that changes anchor tag semantics and behaviour to button semantics and behaviour
-* @version 0.0.1
+* @version 0.0.2
 * @author Ian McBurnie <ianmcburnie@hotmail.com>
 */
-(function($, window, document, undefined) {
+(function($, window, document, undefined) { // eslint-disable-line no-unused-vars
     /**
     * jQuery collection plugin that changes anchor tag semantics and behaviour to button semantics and behaviour
     *
@@ -13,13 +13,14 @@
     $.fn.hijaxButton = function hijaxButton() {
         var pluginName = 'jquery-hijax-button';
 
-        return this.each(function onEachHijaxButton() {
+        return this.each(function onEachHijaxButton() { // eslint-disable-line consistent-return
             var $widget = $(this);
             var tagName = $widget.prop('tagName').toLowerCase();
 
             // hijax button is only valid on anchor tag
             if (tagName !== 'a') {
-                console.log('error: {pluginName} is not valid on {tagName} tag'.replace('{pluginName}', pluginName).replace('{tagName}', tagName));
+                console.log('error: {pluginName} is not valid on {tagName} tag'
+                    .replace('{pluginName}', pluginName).replace('{tagName}', tagName));
                 return false;
             }
 

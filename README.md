@@ -1,10 +1,10 @@
 # jquery-hijax-button
 
 <p>
-    <a href="https://travis-ci.org/ianmcburnie/jquery-hijax-button"><img src="https://api.travis-ci.org/ianmcburnie/jquery-hijax-button.svg?branch=master" alt="Build Status" /></a>
-    <a href='https://coveralls.io/github/ianmcburnie/jquery-hijax-button?branch=master'><img src='https://coveralls.io/repos/ianmcburnie/jquery-hijax-button/badge.svg?branch=master&service=github' alt='Coverage Status' /></a>
-    <a href="https://david-dm.org/ianmcburnie/jquery-hijax-button"><img src="https://david-dm.org/ianmcburnie/jquery-hijax-button.svg" alt="Dependency status" /></a>
-    <a href="https://david-dm.org/ianmcburnie/jquery-hijax-button#info=devDependencies"><img src="https://david-dm.org/ianmcburnie/jquery-hijax-button/dev-status.svg" alt="devDependency status" /></a>
+    <a href="https://travis-ci.org/makeup-jquery/jquery-hijax-button"><img src="https://api.travis-ci.org/makeup-jquery/jquery-hijax-button.svg?branch=master" alt="Build Status" /></a>
+    <a href='https://coveralls.io/github/makeup-jquery/jquery-hijax-button?branch=master'><img src='https://coveralls.io/repos/makeup-jquery/jquery-hijax-button/badge.svg?branch=master&service=github' alt='Coverage Status' /></a>
+    <a href="https://david-dm.org/makeup-jquery/jquery-hijax-button"><img src="https://david-dm.org/makeup-jquery/jquery-hijax-button.svg" alt="Dependency status" /></a>
+    <a href="https://david-dm.org/makeup-jquery/jquery-hijax-button#info=devDependencies"><img src="https://david-dm.org/makeup-jquery/jquery-hijax-button/dev-status.svg" alt="devDependency status" /></a>
 </p>
 
 jQuery collection plugin that changes anchor tag semantics and behaviour to button semantics and behaviour.
@@ -60,8 +60,8 @@ Each test run will generate the following reports:
 
 ## CI Build
 
-https://travis-ci.org/ianmcburnie/jquery-hijax-button
+https://travis-ci.org/makeup-jquery/jquery-hijax-button
 
 ## Code Coverage
 
-https://coveralls.io/github/ianmcburnie/jquery-hijax-button?branch=master
+https://coveralls.io/github/makeup-jquery/jquery-hijax-button?branch=master
