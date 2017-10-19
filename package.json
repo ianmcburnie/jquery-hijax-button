@@ -1,7 +1,7 @@
 {
   "name": "jquery-hijax-button",
   "description": "jQuery collection plugin that changes anchor tag semantics and behaviour to button semantics and behaviour",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
     "start": "npm run lasso && parallelshell 'npm run server' 'npm run watch'",
     "tdd": "karma start --autoWatch true --singleRun false",
